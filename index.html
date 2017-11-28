@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Totally Trivial Trivia</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="maintitle">Arizona Fun Trivia!</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 ">
+                <button type="button" class="btn btn-primary btn-lg btn-block" id="start">Let's do this!</button>
+            </div>
+            <div class="col-lg-4 col-lg-offset-4 text-center">
+                <p id="time">Time Remaining:<span id="timer"></span></p>
+            </div>
+        </div>
+        <div class="form-group text-center">
+            <p>1. Which one of the following is NOT an Arizona area code?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="goodanswer">505
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">520
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">623
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">602
+                </label>
+            </form>
+            <p>2. Which one of the following states does NOT border Arizona?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Utah
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Nevada
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="goodanswer">Oklahoma
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Colorado
+                </label>
+            </form>
+            <p>3. What year did Arizona achieve statehood?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="goodanswer">1912
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">1920
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">1914
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">1895
+                </label>
+            </form>
+            <p>4. What is the state bird?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Hawk
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Roadrunner
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="goodanswer">Cactus Wren
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Buzzard
+                </label>
+            </form>
+            <p>5. What are the official state colors?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="goodanswer">Blue and Gold
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Green and Gold
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Blue and Red
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Black and Tan
+                </label>
+            </form>
+            <p>6. Arizona is the _____ state.</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">30th
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="goodanswer">48th
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">37th
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">45th
+                </label>
+            </form>
+            <p>7. London Bridge is located in what Arizona city?</p>
+            <form class="question">
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="goodanswer">Lake Havasu City
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Tucson
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Phoenix
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" class="optradio" value="wrong">Bisbee
+                </label>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <button type="button" class="btn btn-danger btn-lg btn-block" id="done">I am done!</button>
+            </div>
+        </div>
+    </div>
+    <!-- content container -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
