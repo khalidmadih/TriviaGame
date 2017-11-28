@@ -21,12 +21,13 @@
             <div class="col-lg-4 col-lg-offset-4 ">
                 <button type="button" class="btn btn-primary btn-lg btn-block" id="start">Let's do this!</button>
             </div>
-            <div class="col-lg-4 col-lg-offset-4 text-center">
+            <div id="counter" class="col-lg-4 col-lg-offset-4 text-center">
                 <p id="time">Time Remaining:<span id="timer"></span></p>
+                <br>
             </div>
         </div>
         <div class="form-group text-center">
-            <p>1. Which one of the following is NOT an Arizona area code?</p>
+            <p id="question">1. Which one of the following is NOT an Arizona area code?</p>
             <form class="question">
                 <label class="radio-inline">
                     <input type="radio" name="optradio" class="optradio" value="goodanswer">505
@@ -41,7 +42,7 @@
                     <input type="radio" name="optradio" class="optradio" value="wrong">602
                 </label>
             </form>
-            <p>2. Which one of the following states does NOT border Arizona?</p>
+            <p id="question">2. Which one of the following states does NOT border Arizona?</p>
             <form class="question">
                 <label class="radio-inline">
                     <input type="radio" name="optradio" class="optradio" value="wrong">Utah
@@ -56,7 +57,7 @@
                     <input type="radio" name="optradio" class="optradio" value="wrong">Colorado
                 </label>
             </form>
-            <p>3. What year did Arizona achieve statehood?</p>
+            <p id="question">3. What year did Arizona achieve statehood?</p>
             <form class="question">
                 <label class="radio-inline">
                     <input type="radio" name="optradio" class="optradio" value="goodanswer">1912
@@ -71,7 +72,7 @@
                     <input type="radio" name="optradio" class="optradio" value="wrong">1895
                 </label>
             </form>
-            <p>4. What is the state bird?</p>
+            <p id="question">4. What is the state bird?</p>
             <form class="question">
                 <label class="radio-inline">
                     <input type="radio" name="optradio" class="optradio" value="wrong">Hawk
@@ -86,7 +87,7 @@
                     <input type="radio" name="optradio" class="optradio" value="wrong">Buzzard
                 </label>
             </form>
-            <p>5. What are the official state colors?</p>
+            <p id="question">5. What are the official state colors?</p>
             <form class="question">
                 <label class="radio-inline">
                     <input type="radio" name="optradio" class="optradio" value="goodanswer">Blue and Gold
@@ -101,7 +102,7 @@
                     <input type="radio" name="optradio" class="optradio" value="wrong">Black and Tan
                 </label>
             </form>
-            <p>6. Arizona is the _____ state.</p>
+            <p id="question">6. Arizona is the _____ state.</p>
             <form class="question">
                 <label class="radio-inline">
                     <input type="radio" name="optradio" class="optradio" value="wrong">30th
@@ -116,7 +117,7 @@
                     <input type="radio" name="optradio" class="optradio" value="wrong">45th
                 </label>
             </form>
-            <p>7. London Bridge is located in what Arizona city?</p>
+            <p id="question">7. London Bridge is located in what Arizona city?</p>
             <form class="question">
                 <label class="radio-inline">
                     <input type="radio" name="optradio" class="optradio" value="goodanswer">Lake Havasu City
