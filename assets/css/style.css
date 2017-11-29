@@ -23,7 +23,7 @@ body {
     color: red;
 }
 
-#question {
+.qcontainer p {
     font-weight: 700;
     font-size: 16px;
 }
@@ -44,5 +44,14 @@ body {
 
 #summary {
     margin-top: 60px;
-    margin-bottom: 480px;
+    margin-bottom: 420px;
+    font-size: 16px;
+}
+
+#pagain {
+margin-top: 50px
+}
+
+.maintitle {
+    color: #bf0a30;
 }
